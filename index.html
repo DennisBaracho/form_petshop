@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+<main>
+  <div class="container">
+
+     <header class="header">
+      <h1 id="title" class="text-center"><strong>Littlest Petshop Form<strong></h1>
+      <p id="description" class="text-center"><em>Enter your pet's information for better service.</em></p>
+      </header>
+
+      <form id="survey-form">
+
+        <section id="Pet">
+        <div><label id="name-label">Name: </label> <input id="name" type="text" required placeholder="Enter Pet's name"></div>
+
+        <div><label id="breed-label">Pet's Breed: </label> <input id="name" type="text" required placeholder="Enter your Pet's breed"></div>
+
+        <div><label id="number-label">Pet's Age: </label><input id="number" type="number" required placeholder="Age" min="0" max="38"></div>
+          </section>
+
+        <section id="Owner">
+        <div><label id="name-label">Owner's Name: </label> <input id="name" type="text" required placeholder="Enter your name"></div>
+        <div><label id="email-label">Email: </label> <input id="email" type="email" required placeholder="Enter your Email" ></div>
+        <div><label id="phonenumber-label">Phone Number: </label> <input id="phone-number" type="number" required placeholder="(XX) XXXX-XXXX" name=""></div>
+          </section>
+
+<div class="form-group">
+<p>Pet species:</p>
+<select id="dropdown" name="species">
+<option value="" name="species">Select one</option>
+<option value="1" name="species">Cat</option>
+<option value="2" name="species">Dog</option>
+<option value="3" name="species">Bird</option>
+<option value="4" name="species">Rabbit</option>
+<option value="5" name="species">Guinea Pig</option>
+  </select>
+  </div>
+
+<div class="form-group">
+<p>Pet's gender:</p>
+<label id="name"><input type="radio" id="name" value="male" name="gender">Male</label>
+<label id="name"><input type="radio" id="name" value="female" name="gender">Female</label>
+</div>
+
+<div class="form-group">
+<p>Visual analysis</p>
+<div>
+<label><input type="checkbox" value="visual-aspects">Fleas/Ticks</label></div>
+<div>
+<label><input type="checkbox" value="visual-aspects">Warts</label></div>
+<div><label><input type="checkbox" value="visual-aspects">Genital Secretions</label></div>
+<div><label><input type="checkbox" value="visual-aspects">Eyes</label></div>
+<div><label><input type="checkbox" value="visual-aspects">Ears</label></div>
+<div><label><input type="checkbox" value="visual-aspects">Skin</label></div>
+</div>
+<p>Any observation?</p>
+<textarea id="observations" class="input-textarea" name="observations" placeholder="Enter any observations"></textarea>
+
+<div id="submit-button"><button type="submit" id="submit" class="submit-button">Submit</button></div>
+        </form>
+        </div>
+        </main>
+      </body>
+  </html>
