@@ -1,7 +1,7 @@
 ## Sobre o projeto
 Projeto "Build a Survey Form" do freeCodeCamp. 
 
-## Tags utilizadas 
+## Tags utilizadas comumente em formulários
 * form
   - method = "GET/POST"
   - onsubmit = "entenderei quando estudar javascript"
@@ -9,7 +9,10 @@ Projeto "Build a Survey Form" do freeCodeCamp.
   - autocomplete = "on/off"
     
     *O GET é utilizado para acessar um recurso, uma informação, não para enviar dados como dados de um formulário, por exemplo, isso é responsabilidade do POST.*
-  
+
+* fieldset
+    *Abriga o formulário, envolvendo com uma borda.*
+     
 * input
   - type = "text/number/password/button/range/color/email/url/date/week/month/checkbox/radio/file/search"
   - name = "nome/idade/senha/botao/slider/seletor_cores/email/url/data/semana/mes/caixa_seletora/botao_redondo/arquivo/busca"
